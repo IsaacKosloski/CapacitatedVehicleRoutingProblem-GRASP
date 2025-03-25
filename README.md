@@ -40,13 +40,14 @@ Where `input_file.vrp` is a valid problem instance from the `Benchmarks/` direct
 
 ## 📌 Example Usage
 ```
-./bin/vrp_solver Benchmarks/T/T-n5-k5.vrp Output/T/T-n5-k5.sol
-./bin/vrp_solver Benchmarks/A/A-n32-k5.vrp Output/A/A-n32-k5.sol
+./bin/cvrp_solver Benchmarks/T/T-n5-k5.vrp Output/T/T-n5-k5.sol
+./bin/cvrp_solver Benchmarks/A/A-n32-k5.vrp Output/A/A-n32-k5.sol
 ```
 
 ## 🐉 Valgrind Example Usage
 ```
-valgrind --leak-check=yes -s ./bin/vrp_solver Benchmarks/T/T-n5-k5.vrp Output/T/T-n5-k5.sol
+valgrind --leak-check=yes -s ./bin/cvrp_solver Benchmarks/T/T-n5-k5.vrp Output/T/T-n5-k5.sol
+valgrind --leak-check=yes -s ./bin/cvrp_solver Benchmarks/A/A-n32-k5.vrp Output/A/A-n32-k5.sol
 ```
 
 ## 🔄 GRASP Algorithm Framework
