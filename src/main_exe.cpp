@@ -2,6 +2,7 @@
 
 #include "Functions.h"
 #include "Solver.h"
+#include <chrono>
 #include <format>
 
 #define MAX_ITERATIONS 10'000
@@ -37,10 +38,11 @@ int main(int argc, char **argv)
         {
             // Reset the solution before each iteration
             solution->routes.clear();
+            solution->routeLoads.clear();
             solution->totalCost = 0.0;
 
             solver->GRASP_Construct(cvrp, solution, alpha);
-            solver->localSearch_SwapStar(cvrp, bestSolution, 2);
+            solver->localSearch_SwapStar(cvrp, solution, 2);
             solver->acceptanceCriterion_BestSolution(bestSolution, solution);
         }
 
@@ -49,13 +51,12 @@ int main(int argc, char **argv)
         chrono::duration<double> elapsed = finish - start;
 
         // Generating output file name
-        string dimension(argv[2]);
-        string set(argv[3]);
-        string outputFile = "../Output/" + set +  "/" + dimension + "/" + dimension + "-" + std::format("{:02}", executions) + ".sol";
+        string baseOutputFile(argv[2]);
+        string outputFile = baseOutputFile.substr(0, baseOutputFile.find_last_of('.')) + "-" + std::format("{:02}", executions) + ".sol";
         char const *outputFileC = outputFile.c_str();
 
         // Printing the result on an output file
-        bestSolution->printSolution(outputFileC, elapsed.count(), cvrp->nodesDimension, cvrp->nodesDimension);
+        bestSolution->printSolution(outputFileC, elapsed.count(), MAX_ITERATIONS, cvrp->nodesDimension);
 
         // Memory cleanup
         delete bestSolution;
