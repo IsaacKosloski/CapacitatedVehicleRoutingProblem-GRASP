@@ -1,0 +1,4 @@
+Instância: CMT8
+Método: CMT
+Tempo total (s): 49.742338112
+Memória máxima (KB): 0

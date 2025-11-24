@@ -1,0 +1,4 @@
+Instância: E-n30-k3
+Método: E
+Tempo total (s): 5.817293305
+Memória máxima (KB): 0

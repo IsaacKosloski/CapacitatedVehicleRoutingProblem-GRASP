@@ -1,0 +1,4 @@
+Instância: X-n536-k96
+Método: X
+Tempo total (s): 3220.919327279
+Memória máxima (KB): 0

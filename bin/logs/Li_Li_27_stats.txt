@@ -1,0 +1,4 @@
+Instância: Li_27
+Método: Li
+Tempo total (s): 5793.073770191
+Memória máxima (KB): 10804

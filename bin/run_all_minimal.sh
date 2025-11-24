@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Script principal a ser executado
-PROGRAM="./run_all.sh"
+PROGRAM="./run_D.sh"
 
 # Núcleos de CPU que deseja usar (ex: 2,3)
 CORES="2,3"

@@ -1,0 +1,4 @@
+Instância: X-n627-k43
+Método: X
+Tempo total (s): 2400.713712616
+Memória máxima (KB): 0

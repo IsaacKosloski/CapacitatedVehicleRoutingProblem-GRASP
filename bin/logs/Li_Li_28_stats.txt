@@ -1,0 +1,4 @@
+Instância: Li_28
+Método: Li
+Tempo total (s): 5826.463799156
+Memória máxima (KB): 11620

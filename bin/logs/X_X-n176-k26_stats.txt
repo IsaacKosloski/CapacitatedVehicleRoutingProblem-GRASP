@@ -1,0 +1,4 @@
+Instância: X-n176-k26
+Método: X
+Tempo total (s): 178.279488279
+Memória máxima (KB): 0

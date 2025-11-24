@@ -1,0 +1,4 @@
+Instância: X-n359-k29
+Método: X
+Tempo total (s): 666.738405972
+Memória máxima (KB): 0

@@ -1,0 +1,4 @@
+Instância: T-n5-k5
+Método: T
+Tempo total (s): .422060563
+Memória máxima (KB): 0

@@ -1,0 +1,4 @@
+Instância: X-n801-k40
+Método: X
+Tempo total (s): 4137.763983785
+Memória máxima (KB): 0

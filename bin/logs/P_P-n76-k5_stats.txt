@@ -1,0 +1,4 @@
+Instância: P-n76-k5
+Método: P
+Tempo total (s): 38.814724642
+Memória máxima (KB): 0

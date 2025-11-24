@@ -1,0 +1,4 @@
+Instância: P-n51-k10
+Método: P
+Tempo total (s): 17.302349453
+Memória máxima (KB): 0

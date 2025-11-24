@@ -1,0 +1,4 @@
+Instância: X-n876-k59
+Método: X
+Tempo total (s): 3652.250742523
+Memória máxima (KB): 11388

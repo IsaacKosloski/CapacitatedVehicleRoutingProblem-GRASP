@@ -1,0 +1,4 @@
+Instância: Loggi-n601-k42
+Método: D
+Tempo total (s): 2666.080029957
+Memória máxima (KB): 0

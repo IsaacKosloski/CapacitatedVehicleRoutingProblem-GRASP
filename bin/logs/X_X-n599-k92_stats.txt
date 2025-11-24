@@ -1,0 +1,4 @@
+Instância: X-n599-k92
+Método: X
+Tempo total (s): 2033.783795920
+Memória máxima (KB): 0

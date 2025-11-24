@@ -1,0 +1,4 @@
+Instância: X-n195-k51
+Método: X
+Tempo total (s): 218.635565060
+Memória máxima (KB): 0

@@ -1,0 +1,4 @@
+Instância: P-n16-k8
+Método: P
+Tempo total (s): 1.564956855
+Memória máxima (KB): 0

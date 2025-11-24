@@ -1,0 +1,4 @@
+Instância: X-n856-k95
+Método: X
+Tempo total (s): 4048.282241278
+Memória máxima (KB): 10724

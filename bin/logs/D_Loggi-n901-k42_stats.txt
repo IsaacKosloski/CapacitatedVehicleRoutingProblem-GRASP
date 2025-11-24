@@ -1,0 +1,4 @@
+Instância: Loggi-n901-k42
+Método: D
+Tempo total (s): 6488.407196877
+Memória máxima (KB): 10580

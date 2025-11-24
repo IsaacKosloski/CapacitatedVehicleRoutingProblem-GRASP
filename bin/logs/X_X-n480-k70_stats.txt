@@ -1,0 +1,4 @@
+Instância: X-n480-k70
+Método: X
+Tempo total (s): 1216.365807439
+Memória máxima (KB): 0

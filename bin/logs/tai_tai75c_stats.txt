@@ -1,0 +1,4 @@
+Instância: tai75c
+Método: tai
+Tempo total (s): 22.020483125
+Memória máxima (KB): 0

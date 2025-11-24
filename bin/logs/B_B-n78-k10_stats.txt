@@ -1,0 +1,4 @@
+Instância: B-n78-k10
+Método: B
+Tempo total (s): 27.230016627
+Memória máxima (KB): 0

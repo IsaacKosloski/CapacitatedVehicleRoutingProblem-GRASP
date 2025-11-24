@@ -1,0 +1,4 @@
+Instância: X-n284-k15
+Método: X
+Tempo total (s): 775.031470126
+Memória máxima (KB): 0

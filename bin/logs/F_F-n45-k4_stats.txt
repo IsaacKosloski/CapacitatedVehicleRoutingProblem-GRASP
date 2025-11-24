@@ -1,0 +1,4 @@
+Instância: F-n45-k4
+Método: F
+Tempo total (s): 11.550107394
+Memória máxima (KB): 0

@@ -1,0 +1,4 @@
+Instância: CMT3
+Método: CMT
+Tempo total (s): 48.112464050
+Memória máxima (KB): 0

@@ -1,0 +1,4 @@
+Instância: X-n120-k6
+Método: X
+Tempo total (s): 112.983892606
+Memória máxima (KB): 0

@@ -2,6 +2,8 @@
 #pragma once
 
 #include "Solution.h"
+#include <algorithm>
+#include <iostream>
 
 class Solver
 {
@@ -21,17 +23,16 @@ public:
     // Local Search
     void localSearch_TwoOpt(CVRP *instance , Solution *initialSolution, Solution *bestSolution);
     void localSearch_ThreeOpt(CVRP *instance , Solution *initialSolution, Solution *bestSolution);
+    void localSearch_SwapStar(CVRP *instance, Solution *solution, int chain_length);
     void localSearch_OrOpt();
     void localSearch_Realocation();
     void localSearch_LinKernighan();
+
+    double calculate_swap_star_delta(CVRP *instance, const vector<int>& route1, const vector<int>& route2, int i, int j, int k);
 
     // Greedy-Randomized Construction
     void GRASP_Construct(CVRP *instance, Solution *initialSolution, double alpha);
 
     // Acceptance Criterion
     void acceptanceCriterion_BestSolution(Solution *bestSolution, Solution *newSolution);
-
-
-
 };
-

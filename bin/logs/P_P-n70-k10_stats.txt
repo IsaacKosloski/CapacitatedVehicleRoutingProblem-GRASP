@@ -1,0 +1,4 @@
+Instância: P-n70-k10
+Método: P
+Tempo total (s): 30.703680072
+Memória máxima (KB): 0

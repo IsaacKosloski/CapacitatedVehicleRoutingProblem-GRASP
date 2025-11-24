@@ -1,0 +1,4 @@
+Instância: ORTEC-n510-k23
+Método: D
+Tempo total (s): 1855.433708186
+Memória máxima (KB): 0

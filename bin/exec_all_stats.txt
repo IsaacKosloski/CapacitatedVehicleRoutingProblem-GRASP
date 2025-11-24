@@ -1,0 +1,3 @@
+Programa: ./run_D.sh
+Tempo total (s): .220029138
+Memória máxima (KB): 0

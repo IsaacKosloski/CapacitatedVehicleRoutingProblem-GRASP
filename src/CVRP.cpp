@@ -2,32 +2,44 @@
 
 #include "CVRP.h"
 
-// Constructor that initializes the CVRP instance by loading data from the given file
 CVRP::CVRP(string fileName)
 {
     loadInstance(fileName);
 }
 
-// Method to load instance data (from file or manually)
-void
-CVRP::loadInstance(string fileName)
+CVRP::~CVRP()
+{
+    delete scanner;
+}
+
+void CVRP::loadInstance(string fileName)
 {
     scanner = new Scanner(fileName);
 
     this->nodesDimension = scanner->dimensionOfNodes;
     this->capacityOfVehicle = scanner->capacityOfVehicles;
-    this->depotID = scanner->depot;
+    this->distanceMatrix = scanner->nodesDistance;
+    this->nodes = scanner->nodes;
 
-    for (auto n : scanner->nodesDistance)
-        this->distanceMatrix.push_back(n);
+    // Converte depotID de 1-indexed para 0-indexed
+    this->depotID = scanner->depot - 1;
 
-    for (auto n : scanner->nodes)
+    // Ajusta IDs dos nós para 0-indexed
+    for (int i = 0; i < nodesDimension; ++i)
     {
-        this->nodes.push_back(n);
-        n.isDepot ? depotID = n.ID : 0;
+        nodes[i].ID = i;
     }
 
+    // Marca depósito corretamente
+    if (depotID >= 0 && depotID < nodesDimension)
+    {
+        nodes[depotID].isDepot = true;
+        nodes[depotID].isAvailable = false;
+        nodes[depotID].demand = 0;
+    }
 
-
-    delete scanner;
+    cout << "Instance loaded successfully!" << endl;
+    cout << "  Nodes: " << nodesDimension << endl;
+    cout << "  Capacity: " << capacityOfVehicle << endl;
+    cout << "  Depot: " << depotID << " (0-indexed)" << endl;
 }

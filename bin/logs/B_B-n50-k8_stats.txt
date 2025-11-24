@@ -1,0 +1,4 @@
+Instância: B-n50-k8
+Método: B
+Tempo total (s): 11.984725236
+Memória máxima (KB): 0

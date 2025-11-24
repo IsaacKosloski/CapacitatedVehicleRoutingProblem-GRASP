@@ -1,0 +1,4 @@
+Instância: X-n148-k46
+Método: X
+Tempo total (s): 142.427552081
+Memória máxima (KB): 0

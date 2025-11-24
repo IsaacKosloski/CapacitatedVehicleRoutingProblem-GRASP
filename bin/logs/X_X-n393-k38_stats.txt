@@ -1,0 +1,4 @@
+Instância: X-n393-k38
+Método: X
+Tempo total (s): 828.149126591
+Memória máxima (KB): 0

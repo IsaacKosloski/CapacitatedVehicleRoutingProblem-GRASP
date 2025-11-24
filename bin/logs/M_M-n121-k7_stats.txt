@@ -1,0 +1,4 @@
+Instância: M-n121-k7
+Método: M
+Tempo total (s): 87.580394436
+Memória máxima (KB): 0

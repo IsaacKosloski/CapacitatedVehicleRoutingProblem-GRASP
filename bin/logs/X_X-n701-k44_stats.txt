@@ -1,0 +1,4 @@
+Instância: X-n701-k44
+Método: X
+Tempo total (s): 2891.066747062
+Memória máxima (KB): 0

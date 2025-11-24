@@ -1,0 +1,4 @@
+Instância: ORTEC-n405-k18
+Método: D
+Tempo total (s): 1213.412989352
+Memória máxima (KB): 0

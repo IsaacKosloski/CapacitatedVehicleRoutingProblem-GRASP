@@ -1,0 +1,4 @@
+Instância: X-n270-k35
+Método: X
+Tempo total (s): 609.285010460
+Memória máxima (KB): 0

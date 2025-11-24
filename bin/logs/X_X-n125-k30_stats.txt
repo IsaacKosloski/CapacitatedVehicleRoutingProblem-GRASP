@@ -1,0 +1,4 @@
+Instância: X-n125-k30
+Método: X
+Tempo total (s): 88.299954599
+Memória máxima (KB): 0

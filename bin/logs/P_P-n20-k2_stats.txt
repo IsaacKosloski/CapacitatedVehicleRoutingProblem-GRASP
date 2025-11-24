@@ -1,0 +1,4 @@
+Instância: P-n20-k2
+Método: P
+Tempo total (s): 2.718302230
+Memória máxima (KB): 0

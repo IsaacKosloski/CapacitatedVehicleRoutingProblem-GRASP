@@ -1,0 +1,4 @@
+Instância: P-n101-k4
+Método: P
+Tempo total (s): 72.780056601
+Memória máxima (KB): 0

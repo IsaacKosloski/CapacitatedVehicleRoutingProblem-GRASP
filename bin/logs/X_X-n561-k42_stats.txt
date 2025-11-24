@@ -1,0 +1,4 @@
+Instância: X-n561-k42
+Método: X
+Tempo total (s): 1743.785076034
+Memória máxima (KB): 0

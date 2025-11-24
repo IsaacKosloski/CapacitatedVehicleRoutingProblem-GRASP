@@ -1,0 +1,4 @@
+Instância: X-n895-k37
+Método: X
+Tempo total (s): 4224.090313690
+Memória máxima (KB): 11900

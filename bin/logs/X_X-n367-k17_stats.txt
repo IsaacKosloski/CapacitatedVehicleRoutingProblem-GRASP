@@ -1,0 +1,4 @@
+Instância: X-n367-k17
+Método: X
+Tempo total (s): 757.762108951
+Memória máxima (KB): 0

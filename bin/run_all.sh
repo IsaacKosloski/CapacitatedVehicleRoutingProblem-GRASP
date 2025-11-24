@@ -1,12 +1,12 @@
 #!/bin/bash
-echo '▶️ Rodando run_A.sh'
-./run_A.sh
+#echo '▶️ Rodando run_A.sh'
+#./run_A.sh
 
-echo '▶️ Rodando run_B.sh'
-./run_B.sh
+#echo '▶️ Rodando run_B.sh'
+#./run_B.sh
 
-echo '▶️ Rodando run_CMT.sh'
-./run_CMT.sh
+#echo '▶️ Rodando run_CMT.sh'
+#./run_CMT.sh
 
 echo '▶️ Rodando run_D.sh'
 ./run_D.sh

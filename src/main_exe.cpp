@@ -1,5 +1,4 @@
 /*Created by Isaac on 30/01/2025.*/
-/*Created by Isaac on 30/01/2025.*/
 
 #include "Functions.h"
 #include "Solver.h"
@@ -32,16 +31,16 @@ int main(int argc, char **argv)
 
         // Generate an initial greedy solution
         solver->initialSolution_Greedy(cvrp, solution);
-        *bestSolution = *solution;  // Initialize best solution
+        *bestSolution = *solution;  // Initialize the best solution
 
         for(int i = 0; i < MAX_ITERATIONS; i++)
         {
-            // Reset solution before each iteration
+            // Reset the solution before each iteration
             solution->routes.clear();
             solution->totalCost = 0.0;
 
             solver->GRASP_Construct(cvrp, solution, alpha);
-            solver->localSearch_TwoOpt(cvrp, solution, bestSolution);
+            solver->localSearch_SwapStar(cvrp, bestSolution, 2);
             solver->acceptanceCriterion_BestSolution(bestSolution, solution);
         }
 

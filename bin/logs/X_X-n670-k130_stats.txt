@@ -1,0 +1,4 @@
+Instância: X-n670-k130
+Método: X
+Tempo total (s): 1878.149516511
+Memória máxima (KB): 0

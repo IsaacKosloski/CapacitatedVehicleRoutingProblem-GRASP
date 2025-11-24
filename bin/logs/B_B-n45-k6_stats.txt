@@ -1,0 +1,4 @@
+Instância: B-n45-k6
+Método: B
+Tempo total (s): 10.074043884
+Memória máxima (KB): 0

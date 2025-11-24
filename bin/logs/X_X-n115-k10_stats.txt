@@ -1,0 +1,4 @@
+Instância: X-n115-k10
+Método: X
+Tempo total (s): 100.148563639
+Memória máxima (KB): 0

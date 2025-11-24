@@ -1,0 +1,4 @@
+Instância: X-n219-k73
+Método: X
+Tempo total (s): 367.453964794
+Memória máxima (KB): 0
