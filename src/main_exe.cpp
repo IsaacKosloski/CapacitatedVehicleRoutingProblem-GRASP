@@ -4,6 +4,9 @@
 #include "Solver.h"
 #include <chrono>
 #include <format>
+#include <string>
+#include <cstdlib>
+#include <ctime>
 
 #define MAX_ITERATIONS 10'000
 #define EXECUTIONS 30
@@ -18,6 +21,9 @@ int main(int argc, char **argv)
 
     // Setting the alpha parameter
     double alpha = 0.3;
+
+    // Initialize random number generator
+    srand(static_cast<unsigned int>(time(nullptr)));
 
     // Initialize problem components
     auto *cvrp = new CVRP(argv[1]);
@@ -52,7 +58,9 @@ int main(int argc, char **argv)
 
         // Generating output file name
         string baseOutputFile(argv[2]);
-        string outputFile = baseOutputFile.substr(0, baseOutputFile.find_last_of('.')) + "-" + std::format("{:02}", executions) + ".sol";
+        size_t dotPos = baseOutputFile.find_last_of('.');
+        string baseName = (dotPos != string::npos) ? baseOutputFile.substr(0, dotPos) : baseOutputFile;
+        string outputFile = baseName + "-" + std::format("{:02}", executions) + ".sol";
         char const *outputFileC = outputFile.c_str();
 
         // Printing the result on an output file
